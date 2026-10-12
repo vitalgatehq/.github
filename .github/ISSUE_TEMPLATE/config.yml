@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help
+    url: https://vitalgate.vercel.app/contact
+    about: Ask about setup, billing or anything else.
+  - name: Report a security issue
+    url: https://github.com/vitalgatehq/.github/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately, not as an issue.

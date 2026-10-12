@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Vitalgate doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: pr
+    attributes:
+      label: Pull request or workflow run
+      description: A link, if the problem is on a specific PR or Actions run.
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Audit mode
+      options:
+        - Preview deployments
+        - Build in GitHub Actions
+        - Not sure
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: The "Report to Vitalgate" step's output helps most. Remove any secrets first.
